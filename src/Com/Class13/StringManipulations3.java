@@ -25,11 +25,11 @@ public class StringManipulations3 {
 		String Gender = input.nextLine();
 
 		if (Gender.equalsIgnoreCase("boy")) {
-			System.out.println("Suggested Baby name is " + dadsName.substring(0, dadsName.length() / 2)
-					+ momsName.substring(momsName.length() / 2));
+			System.out.println("Suggested Baby name is " + dadsName.substring(0,3)
+					+ momsName.substring(2,4));
 		} else if (Gender.equalsIgnoreCase("girl")) {
-			System.out.println("Suggested Baby name is " + momsName.substring(0, momsName.length() / 2)
-					+ dadsName.substring(dadsName.length() / 2));
+			System.out.println("Suggested Baby name is " + momsName.substring(0,2)
+					+ dadsName.substring(3,6));
 		}
 
 	}
