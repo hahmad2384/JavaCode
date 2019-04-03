@@ -30,6 +30,8 @@ public class StringManipulations3 {
 		} else if (Gender.equalsIgnoreCase("girl")) {
 			System.out.println("Suggested Baby name is " + momsName.substring(0,2)
 					+ dadsName.substring(3,6));
+		}else {
+			System.out.println("No suggestion");
 		}
 
 	}
