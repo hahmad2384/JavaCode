@@ -1,15 +1,10 @@
-package Com.Class7;
+package Com.Class17_2;
 
 public class NestedLoops {
 
 	public static void main(String[] args) {
 		
-		NestedLoops obj = new NestedLoops();
-		obj.number();
-		
-	}
- void number() {
-	 for (int i = 0; i <3; i++) {
+		for (int i = 0; i <3; i++) {
 			System.out.println(i+ " ---Outer loop");//3
 			
 			for (int j = 0; j<3; j++) {
@@ -17,11 +12,12 @@ public class NestedLoops {
 			}
 		}
 /* 0 - outer loop
-* 0- inner loop
-* 1- inner loop
-* 2- inner loop
-* 1- outer loop
-* 0- inner loop
-*/
- }
+ * 0- inner loop
+ * 1- inner loop
+ * 2- inner loop
+ * 1- outer loop
+ * 0- inner loop
+ */
+	}
+
 }

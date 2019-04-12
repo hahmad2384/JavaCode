@@ -1,4 +1,4 @@
-package Com.Class7;
+package Com.Class17_2;
 
 public class NestedLoops1 {
 
@@ -11,11 +11,7 @@ public class NestedLoops1 {
       * 12345
       * 12345
       */
-		NestedLoops1 obj = new NestedLoops1();
-		obj.printNumber();
-		
-}
-	void printNumber () {
+	
 		for (int i=1; i<5; i++) {
 			for (int y=1; y<=i; y++) {
 				
@@ -30,6 +26,6 @@ public class NestedLoops1 {
 			}
 			System.out.println();
 		}
-	}
+}
 
 }
